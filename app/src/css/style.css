@@ -1,0 +1,64 @@
+Body{
+    background: #f4f2ec url(../../../assets/imagens/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+
+}
+
+/* Elemento com id "container" */
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* ---------- HEADER ---------- */
+
+/* Elemento <a> que descende do elemento com id "logo" */
+#logo a{
+    width: 248px;
+    height: 21px;
+    text-indent: -9000px;
+    display: block;
+    background: url(../../../assets/imagens/logo.png);
+}
+
+/* Elemento <header> estilizado */
+header{
+    padding: 15px 0;
+    height: 55px;
+}
+
+/* Elemento <ul> que descende de elemento <nav> */
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+/* Elemento <li> que descende de elemento <ul> que descende de elemento <nav> */
+nav ul li{
+    float: left;
+}
+
+/* 
+Elemento <a> em estado normal que descende de elemento <li> que descende de elemento <ul> 
+que descende de elemento <nav>
+*/
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+/* 
+Elemento <a> em estado de hover que descende de elemento <li> que descende de elemento <ul> 
+que descende de elemento <nav>
+*/
+nav ul li a:hover{
+    border-bottom: 1px solid #4F4F4F;
+}
