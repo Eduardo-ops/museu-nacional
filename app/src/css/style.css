@@ -17,6 +17,11 @@ a:link, a:active, a:visited{
 
 /* ---------- HEADER ---------- */
 
+/* Elemento <h1> que descende de elemento com id "logo" */
+#logo h1{
+    float: left;
+}
+
 /* Elemento <a> que descende do elemento com id "logo" */
 #logo a{
     width: 248px;
@@ -62,3 +67,61 @@ que descende de elemento <nav>
 nav ul li a:hover{
     border-bottom: 1px solid #4F4F4F;
 }
+
+/* ---------- Principal ---------- */
+
+/* Elemento com id "conteudo" */
+#conteudo{
+    width: 720px;
+    float: left;
+}
+
+/* Elemento aside estilizado */
+aside{
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+}
+
+/* Elemento <section> com id "visita" */
+section#visita{
+    background: #cdc8b1;
+    margin-top: 10px;
+    padding: 10px 27px 27px 27px;
+}
+
+section#visita h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/* FORMULÁRIOS */
+
+/* Elemento <input> estilizado */
+input{
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font: 1em;
+}
+
+/* Elemento <input> com classe "campo" */
+input.campo{
+    border: 1px solid #ada484;
+}
+
+/* Elemento <input> com classe "botao" */
+input.botao{
+    background: #9b9271;
+    margin-top: 5px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
