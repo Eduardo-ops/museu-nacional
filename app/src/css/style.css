@@ -98,6 +98,37 @@ section#visita h4{
     margin-bottom: 0;
 }
 
+section#postagens h3{
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+article#video{
+    float: left;
+    width: 310px;
+}
+
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 60px;
+}
+
+article#exposicoes{
+    float: left;
+    width: 310px;
+    margin-top: 15px;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
 /* FORMULÁRIOS */
 
 /* Elemento <input> estilizado */
@@ -145,4 +176,3 @@ section#galeria h4{
     text-transform: uppercase;
     padding-bottom: 3px;
 }
-
